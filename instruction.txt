@@ -1,0 +1,8 @@
+1. Upload the VoguePay Class a location of your choice in your files
+2. Open the downloaded folder and open merchant.php in the src folder. Replace the dummy contents in the file with your voguepay details.
+    i. Login to Voguepay (https://voguepay.com/login)
+    ii.  In the merchant.php file change the merchantUsername to your VoguePay username
+    iii. In the merchant.php file change the merchantID to your VoguePay merchant ID, this can be found on the side menu bar after login
+    iv. In the merchant.php file change the merchantEmail to your VoguePay registered email, this can be found on (https://voguepay.com/account_settings) the General Settings tab.
+    v. In the merchant.php file change the merchantEmail to your VoguePay apiToken, this can be found on (https://voguepay.com/account_settings) the API settings >>> Command API Token
+3. Open the downloaded folder and open the key.crt file. Copt the public key and paste in the file. The public key can be found at (https://voguepay.com/account_settings) the API settings >>> Public Key
